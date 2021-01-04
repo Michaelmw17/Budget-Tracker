@@ -149,7 +149,7 @@ document.querySelector("#sub-btn").addEventListener("click", function(event) {
   sendTransaction(false);
 });
 
-// document.querySelector("#del-btn").addEventListener("click", function(event) {
-//   event.preventDefault();
-//   deletePending();
-// });
+document.querySelector("#del-btn").addEventListener("click", function(event) {
+  event.preventDefault();
+  deletePending();
+});
