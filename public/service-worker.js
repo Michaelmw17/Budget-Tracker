@@ -40,7 +40,7 @@ self.addEventListener("activate", function(evt) {
 
 // fetch
 self.addEventListener("fetch", evt => {
-    if(evt.request.url.includes('/')) {
+    if(evt.request.url.includes('/api/')) {
         console.log('[Service Worker] Fetch(data)', evt.request.url);
     
 evt.respondWith(
