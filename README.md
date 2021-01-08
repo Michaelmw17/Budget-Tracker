@@ -18,8 +18,7 @@ Giving users a fast and easy way to track their money is important, but allowing
 
 ## Deployed Application
 
-("
-")
+- [Github repo!](https://github.com/Michaelmw17/Budget-Tracker)
 
 * Offline image:
 
